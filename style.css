@@ -1,0 +1,22 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#gameBox {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
